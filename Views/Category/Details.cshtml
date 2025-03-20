@@ -1,0 +1,80 @@
+﻿@using KarYemek.Models.CategoryViewModels
+@model GetCategoryViewModel
+
+@{
+    ViewData["Title"] = "Category Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container my-5">
+    <div class="row justify-content-center">
+        <!-- Category Details Card -->
+        <div class="col-md-8">
+            <div class="card shadow-lg border-light rounded">
+                <!-- Card Header -->
+                <div class="card-header bg-info text-white text-center">
+                    <h3>Kategori Detayları</h3>
+                </div>
+                <div class="card-body">
+                    <!-- Category Image -->
+                    <div class="text-center mb-4">
+                        @if (!string.IsNullOrEmpty(Model.ImageURL))
+                        {
+                            <img src="@Model.ImageURL" alt="Category Image" class="img-fluid rounded-circle shadow-sm" style="max-width: 300px; max-height: 300px;" />
+                        }
+                        else
+                        {
+                            <span class="text-muted">Kategoriye ait fotoğraf bulunamadı</span>
+                        }
+                    </div>
+
+                    <!-- Category Name -->
+                    <div class="mb-3">
+                        <h4><strong>@Html.DisplayFor(model => model.Name)</strong></h4>
+                    </div>
+
+                    <!-- Category Description -->
+                    <div class="mb-3">
+                        <h5><strong>Description:</strong></h5>
+                        <p>@Html.DisplayFor(model => model.Description)</p>
+                    </div>
+                </div>
+
+                <!-- Footer with Action Buttons -->
+                <div class="card-footer text-center">
+                    <a asp-action="EditCategory" asp-route-id="@Model?.Id" class="btn btn-warning btn-lg">Edit</a>
+                    <a asp-action="Index" class="btn btn-secondary btn-lg">Listeye Geri Dön</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Food Categories Section -->
+    <div class="mt-5">
+        <h4 class="text-center">Food Categories</h4>
+        <hr />
+        @if (Model.FoodCategories != null && Model.FoodCategories.Any())
+        {
+            <div class="row">
+                @foreach (var foodCategory in Model.FoodCategories)
+                {
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <!-- Kart Görseli -->
+                            <img src="@foodCategory.Food.ImageURL" class="card-img-top" alt="@foodCategory.Food.Name" style="object-fit: cover; height: 250px;" />
+                            <div class="card-body">
+                                <h5 class="card-title">@foodCategory.Food.Name</h5>
+                                <p class="card-text" style="font-size: 14px; color: #555;">@foodCategory.Food.Description</p>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+
+        }
+        else
+        {
+            <p class="text-center">No food categories found for this category.</p>
+        }
+    </div>
+</div>

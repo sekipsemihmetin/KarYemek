@@ -1,0 +1,63 @@
+﻿@using KarYemek.Models.DailyMenuModels
+@model GetDailyMenuViewModel
+
+@{
+    ViewData["Title"] = "Detaylar";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container my-5">
+    <h1 class="text-center">Günlük Menü Detayları</h1>
+
+    <div class="card shadow-lg border-light rounded">
+        <!-- Card Header -->
+        <div class="card-header bg-info text-white text-center">
+            <h3>Günlük Menü Detayları</h3>
+        </div>
+
+        <!-- Card Body -->
+        <div class="card-body">
+            <!-- Günlük Menü Başlık ve Bilgiler -->
+            <h4>Menü Bilgileri</h4>
+            <hr />
+            <dl class="row">
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.Date)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.Date)
+                </dd>
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.Note)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.Note)
+                </dd>
+            </dl>
+
+            <!-- Yiyecekler Listesi -->
+            <h5 class="mt-4">Bu Günlük Menüyü İçeren Yiyecekler:</h5>
+            <div class="row">
+                @foreach (var food in Model.DailyMenuFoods)
+                {
+                    <div class="col-md-4 mb-4">
+                        <div class="card shadow-sm border-0">
+                            <img src="@food.Food.ImageURL" class="card-img-top" alt="@food.Food.Name" style="object-fit: cover; height: 250px;" />
+                            <div class="card-body">
+                                <h5 class="card-title">@food.Food.Name</h5>
+                                <p class="card-text">@food.Food.Description</p>
+                                <span class="badge bg-secondary">@food.Food.Calorie kalori</span>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+
+        <!-- Card Footer with Action Buttons -->
+        <div class="card-footer text-center">
+            <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-warning btn-sm">Düzenle</a>
+            <a asp-action="Index" class="btn btn-secondary btn-sm">Listeye Dön</a>
+        </div>
+    </div>
+</div>

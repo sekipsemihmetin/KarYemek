@@ -1,0 +1,59 @@
+﻿
+@{
+    ViewData["Title"] = "GetOffer";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<body>
+
+    <div class="container mt-5">
+        <h2>Teklif Alma İletişim Formu</h2>
+        <form>
+            <!-- Firma Bilgileri -->
+            <div class="mb-4">
+                <label for="firmaIsmi" class="form-label">Firma İsmi</label>
+                <input type="text" class="form-control" id="firmaIsmi" placeholder="Firma ismini girin" required>
+            </div>
+
+            <div class="mb-4">
+                <label for="firmaAdresi" class="form-label">Firma Adresi</label>
+                <input type="text" class="form-control" id="firmaAdresi" placeholder="Firma adresini girin" required>
+            </div>
+
+            <div class="mb-4">
+                <label for="calisanSayisi" class="form-label">Çalışan Sayısı</label>
+                <input type="number" class="form-control" id="calisanSayisi" placeholder="Çalışan sayısını girin" required>
+            </div>
+
+            <!-- Kişisel İletişim Bilgileri -->
+            <div class="mb-4">
+                <label for="adSoyad" class="form-label">Ad Soyad</label>
+                <input type="text" class="form-control" id="adSoyad" placeholder="Ad ve soyadınızı girin" required>
+            </div>
+
+            <div class="mb-4">
+                <label for="telefon" class="form-label">Telefon</label>
+                <input type="tel" class="form-control" id="telefon" placeholder="Telefon numaranızı girin" required>
+            </div>
+
+            <div class="mb-4">
+                <label for="email" class="form-label">E-mail</label>
+                <input type="email" class="form-control" id="email" placeholder="E-mail adresinizi girin" required>
+            </div>
+
+            <!-- Not -->
+            <div class="mb-4">
+                <label for="not" class="form-label">Not</label>
+                <textarea class="form-control" id="not" rows="5" placeholder="Eklemek istediğiniz notu yazın"></textarea>
+            </div>
+
+            <!-- Gönder Butonu -->
+            <button type="submit" class="btn btn-primary w-100">Bilgileri Gönder</button>
+        </form>
+    </div>
+</body>
+
+
+
+

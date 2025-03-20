@@ -1,0 +1,128 @@
+﻿@{
+    ViewData["Title"] = "Belgelerimiz";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .certificate-card {
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+        }
+
+            .certificate-card img {
+                max-height: 200px;
+                object-fit: contain;
+                border-radius: 10px;
+                padding: 10px;
+                cursor: pointer;
+            }
+
+            .certificate-card:hover {
+                transform: scale(1.05);
+            }
+
+        /* Modal İçin Stil */
+        .modal-content img {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container text-center mt-5">
+        <h2 class="mb-4">Belgelerimiz</h2>
+        <div id="certificateCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card certificate-card">
+                                <img src="https://via.placeholder.com/400x300?text=Belge+1" alt="Belge 1" class="card-img-top" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
+                                <div class="card-body">
+                                    <h5 class="card-title">ISO 9001 Sertifikası</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card certificate-card">
+                                <img src="https://via.placeholder.com/400x300?text=Belge+2" alt="Belge 2" class="card-img-top" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
+                                <div class="card-body">
+                                    <h5 class="card-title">ISO 14001 Sertifikası</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card certificate-card">
+                                <img src="https://via.placeholder.com/400x300?text=Belge+3" alt="Belge 3" class="card-img-top" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
+                                <div class="card-body">
+                                    <h5 class="card-title">ISO 27001 Sertifikası</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card certificate-card">
+                                <img src="https://via.placeholder.com/400x300?text=Belge+4" alt="Belge 4" class="card-img-top" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
+                                <div class="card-body">
+                                    <h5 class="card-title">CE Belgesi</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card certificate-card">
+                                <img src="https://via.placeholder.com/400x300?text=Belge+5" alt="Belge 5" class="card-img-top" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
+                                <div class="card-body">
+                                    <h5 class="card-title">TSE Belgesi</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card certificate-card">
+                                <img src="https://via.placeholder.com/400x300?text=Belge+6" alt="Belge 6" class="card-img-top" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="showImage(this)">
+                                <div class="card-body">
+                                    <h5 class="card-title">GMP Sertifikası</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Carousel Kontrolleri -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#certificateCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#certificateCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Modal - Resmi Büyütme -->
+    <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="imageModalLabel">Belge Önizleme</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img id="modalImage" src="" class="img-fluid" alt="Belge">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function showImage(img) {
+            document.getElementById("modalImage").src = img.src;
+        }
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>

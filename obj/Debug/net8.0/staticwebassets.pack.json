@@ -1,0 +1,757 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\KarYemek.bundle.scp.css",
+      "PackagePath": "staticwebassets\\KarYemek.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\404.html",
+      "PackagePath": "staticwebassets\\404.html"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\READ-ME.txt",
+      "PackagePath": "staticwebassets\\READ-ME.txt"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\about.html",
+      "PackagePath": "staticwebassets\\about.html"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\blog.html",
+      "PackagePath": "staticwebassets\\blog.html"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\book.html",
+      "PackagePath": "staticwebassets\\book.html"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\contact.html",
+      "PackagePath": "staticwebassets\\contact.html"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\event.html",
+      "PackagePath": "staticwebassets\\event.html"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\images\\02b9a76a-8a7d-46a5-91c9-9b200b718131_pilavKaryemek.jpeg",
+      "PackagePath": "staticwebassets\\images\\02b9a76a-8a7d-46a5-91c9-9b200b718131_pilavKaryemek.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\images\\24e68a52-9ede-4903-960b-7840fc26cc26_güllaç.jpeg",
+      "PackagePath": "staticwebassets\\images\\24e68a52-9ede-4903-960b-7840fc26cc26_güllaç.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\images\\272a2889-0df7-4ee1-b31f-9c15ca795f9b_ayran.jpg",
+      "PackagePath": "staticwebassets\\images\\272a2889-0df7-4ee1-b31f-9c15ca795f9b_ayran.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\images\\2a432d1b-cd3c-46d7-8fae-f03dffa93bda_pilavKaryemek.jpeg",
+      "PackagePath": "staticwebassets\\images\\2a432d1b-cd3c-46d7-8fae-f03dffa93bda_pilavKaryemek.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\images\\2acf6c29-6e68-4dfc-8e88-ba4bc36fc046_social-icon3.png",
+      "PackagePath": "staticwebassets\\images\\2acf6c29-6e68-4dfc-8e88-ba4bc36fc046_social-icon3.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\images\\2cece391-5c98-48b3-9f84-231eca049aaa_adana kebap.jpeg",
+      "PackagePath": "staticwebassets\\images\\2cece391-5c98-48b3-9f84-231eca049aaa_adana kebap.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\images\\371b4b0a-5521-4f2b-99f2-b29eede82552_social-icon3.png",
+      "PackagePath": "staticwebassets\\images\\371b4b0a-5521-4f2b-99f2-b29eede82552_social-icon3.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\images\\39c159c9-f578-4341-b439-e750250d7026_2.png",
+      "PackagePath": "staticwebassets\\images\\39c159c9-f578-4341-b439-e750250d7026_2.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\images\\42220226-0a66-4fef-9be4-1db31a6e83dc_baklava.png",
+      "PackagePath": "staticwebassets\\images\\42220226-0a66-4fef-9be4-1db31a6e83dc_baklava.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\images\\5aae5323-a2d6-4b56-a1c6-534d2ebecd9a_mercimek çorbası.jpeg",
+      "PackagePath": "staticwebassets\\images\\5aae5323-a2d6-4b56-a1c6-534d2ebecd9a_mercimek çorbası.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\images\\5bbe3e2b-b5cc-4bb0-b1d5-660fa236a276_social-icon5.png",
+      "PackagePath": "staticwebassets\\images\\5bbe3e2b-b5cc-4bb0-b1d5-660fa236a276_social-icon5.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\images\\61ef461c-38b9-45d5-9934-7dfd3db233da_pilavKaryemek.jpeg",
+      "PackagePath": "staticwebassets\\images\\61ef461c-38b9-45d5-9934-7dfd3db233da_pilavKaryemek.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\images\\807377bc-5522-438c-a64d-541ee7816d53_social-icon1.png",
+      "PackagePath": "staticwebassets\\images\\807377bc-5522-438c-a64d-541ee7816d53_social-icon1.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\images\\8f802a3f-1ef0-4a4c-81a1-9ab2d6c11ed4_adana kebap.jpeg",
+      "PackagePath": "staticwebassets\\images\\8f802a3f-1ef0-4a4c-81a1-9ab2d6c11ed4_adana kebap.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\images\\9156deac-6aea-4d0d-bfbe-311ba81a5577_social-icon2.png",
+      "PackagePath": "staticwebassets\\images\\9156deac-6aea-4d0d-bfbe-311ba81a5577_social-icon2.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\images\\Etler.jpg",
+      "PackagePath": "staticwebassets\\images\\Etler.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\images\\Icecekler.jpg",
+      "PackagePath": "staticwebassets\\images\\Icecekler.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\images\\Tatlılar.jpg",
+      "PackagePath": "staticwebassets\\images\\Tatlılar.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\images\\a00d8344-1700-473c-943d-d80b7d11c2f1_sebzelipirincpilavı.jpg",
+      "PackagePath": "staticwebassets\\images\\a00d8344-1700-473c-943d-d80b7d11c2f1_sebzelipirincpilavı.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\images\\a96594ae-dc40-47a0-9962-f96280655aeb_social-icon1.png",
+      "PackagePath": "staticwebassets\\images\\a96594ae-dc40-47a0-9962-f96280655aeb_social-icon1.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\images\\aa0bc50c-c9e8-468e-8712-278f2dc98853_mercimek çorbası.jpeg",
+      "PackagePath": "staticwebassets\\images\\aa0bc50c-c9e8-468e-8712-278f2dc98853_mercimek çorbası.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\images\\b6732d67-c073-41b8-b8a1-65e98d6c01d1_social-icon1.png",
+      "PackagePath": "staticwebassets\\images\\b6732d67-c073-41b8-b8a1-65e98d6c01d1_social-icon1.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\images\\b79e89a8-ef79-426e-a323-4fc590c282d9_mercimekcorbası.jpg",
+      "PackagePath": "staticwebassets\\images\\b79e89a8-ef79-426e-a323-4fc590c282d9_mercimekcorbası.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\images\\cca80349-04e3-4847-b0e5-bbf6f299667e_social-icon5.png",
+      "PackagePath": "staticwebassets\\images\\cca80349-04e3-4847-b0e5-bbf6f299667e_social-icon5.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\images\\corbalar.jpg",
+      "PackagePath": "staticwebassets\\images\\corbalar.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\images\\d00e26c6-85ac-45fc-a7aa-616f17d67efb_güllaç.jpeg",
+      "PackagePath": "staticwebassets\\images\\d00e26c6-85ac-45fc-a7aa-616f17d67efb_güllaç.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\images\\d48c4540-b6f2-41fc-ab48-4f5e9f0d862e_TasKebabı.jpg",
+      "PackagePath": "staticwebassets\\images\\d48c4540-b6f2-41fc-ab48-4f5e9f0d862e_TasKebabı.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\images\\email-icon.png",
+      "PackagePath": "staticwebassets\\images\\email-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\images\\fd17e318-4a91-4963-b620-0ea0fc3084c7_2.png",
+      "PackagePath": "staticwebassets\\images\\fd17e318-4a91-4963-b620-0ea0fc3084c7_2.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\images\\pilavlar.jpg",
+      "PackagePath": "staticwebassets\\images\\pilavlar.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\images\\social-icon1.png",
+      "PackagePath": "staticwebassets\\images\\social-icon1.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\images\\social-icon2.png",
+      "PackagePath": "staticwebassets\\images\\social-icon2.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\images\\social-icon3.png",
+      "PackagePath": "staticwebassets\\images\\social-icon3.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\images\\social-icon4.png",
+      "PackagePath": "staticwebassets\\images\\social-icon4.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\images\\social-icon5.png",
+      "PackagePath": "staticwebassets\\images\\social-icon5.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\img\\about.jpg",
+      "PackagePath": "staticwebassets\\img\\about.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\img\\background-site.jpg",
+      "PackagePath": "staticwebassets\\img\\background-site.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\img\\blog-1.jpg",
+      "PackagePath": "staticwebassets\\img\\blog-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\img\\blog-2.jpg",
+      "PackagePath": "staticwebassets\\img\\blog-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\img\\blog-3.jpg",
+      "PackagePath": "staticwebassets\\img\\blog-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\img\\event-1.jpg",
+      "PackagePath": "staticwebassets\\img\\event-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\img\\event-2.jpg",
+      "PackagePath": "staticwebassets\\img\\event-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\img\\event-3.jpg",
+      "PackagePath": "staticwebassets\\img\\event-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\img\\event-4.jpg",
+      "PackagePath": "staticwebassets\\img\\event-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\img\\event-5.jpg",
+      "PackagePath": "staticwebassets\\img\\event-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\img\\event-6.jpg",
+      "PackagePath": "staticwebassets\\img\\event-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\img\\event-7.jpg",
+      "PackagePath": "staticwebassets\\img\\event-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\img\\event-8.jpg",
+      "PackagePath": "staticwebassets\\img\\event-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\img\\fact.jpg",
+      "PackagePath": "staticwebassets\\img\\fact.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\img\\hero.png",
+      "PackagePath": "staticwebassets\\img\\hero.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\img\\menu-01.jpg",
+      "PackagePath": "staticwebassets\\img\\menu-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\img\\menu-02.jpg",
+      "PackagePath": "staticwebassets\\img\\menu-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\img\\menu-03.jpg",
+      "PackagePath": "staticwebassets\\img\\menu-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\img\\menu-04.jpg",
+      "PackagePath": "staticwebassets\\img\\menu-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\img\\menu-05.jpg",
+      "PackagePath": "staticwebassets\\img\\menu-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\img\\menu-06.jpg",
+      "PackagePath": "staticwebassets\\img\\menu-06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\img\\menu-07.jpg",
+      "PackagePath": "staticwebassets\\img\\menu-07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\img\\menu-08.jpg",
+      "PackagePath": "staticwebassets\\img\\menu-08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\img\\menu-09.jpg",
+      "PackagePath": "staticwebassets\\img\\menu-09.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\img\\menu-10.jpg",
+      "PackagePath": "staticwebassets\\img\\menu-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\img\\team-1.jpg",
+      "PackagePath": "staticwebassets\\img\\team-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\img\\team-2.jpg",
+      "PackagePath": "staticwebassets\\img\\team-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\img\\team-3.jpg",
+      "PackagePath": "staticwebassets\\img\\team-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\img\\team-4.jpg",
+      "PackagePath": "staticwebassets\\img\\team-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\img\\testimonial-1.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonial-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\img\\testimonial-2.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonial-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\img\\testimonial-3.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonial-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\img\\testimonial-4.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonial-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\lib\\animate\\animate.css",
+      "PackagePath": "staticwebassets\\lib\\animate\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\lib\\animate\\animate.min.css",
+      "PackagePath": "staticwebassets\\lib\\animate\\animate.min.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\lib\\counterup\\counterup.min.js",
+      "PackagePath": "staticwebassets\\lib\\counterup\\counterup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\lib\\easing\\easing.js",
+      "PackagePath": "staticwebassets\\lib\\easing\\easing.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\lib\\easing\\easing.min.js",
+      "PackagePath": "staticwebassets\\lib\\easing\\easing.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\lib\\lightbox\\css\\lightbox.min.css",
+      "PackagePath": "staticwebassets\\lib\\lightbox\\css\\lightbox.min.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\lib\\lightbox\\images\\close.png",
+      "PackagePath": "staticwebassets\\lib\\lightbox\\images\\close.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\lib\\lightbox\\images\\loading.gif",
+      "PackagePath": "staticwebassets\\lib\\lightbox\\images\\loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\lib\\lightbox\\images\\next.png",
+      "PackagePath": "staticwebassets\\lib\\lightbox\\images\\next.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\lib\\lightbox\\images\\prev.png",
+      "PackagePath": "staticwebassets\\lib\\lightbox\\images\\prev.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\lib\\lightbox\\js\\lightbox.min.js",
+      "PackagePath": "staticwebassets\\lib\\lightbox\\js\\lightbox.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\lib\\waypoints\\links.php",
+      "PackagePath": "staticwebassets\\lib\\waypoints\\links.php"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\lib\\waypoints\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\lib\\waypoints\\waypoints.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\lib\\wow\\wow.js",
+      "PackagePath": "staticwebassets\\lib\\wow\\wow.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\lib\\wow\\wow.min.js",
+      "PackagePath": "staticwebassets\\lib\\wow\\wow.min.js"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\menu.html",
+      "PackagePath": "staticwebassets\\menu.html"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\_accordion.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_accordion.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\_alert.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\_badge.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_breadcrumb.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\_button-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_button-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\_card.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_card.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\_carousel.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_carousel.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\_close.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_close.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\_containers.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_containers.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_functions.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\_grid.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\_helpers.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_helpers.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\_images.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_images.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\_list-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\_modal.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_modal.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\_nav.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_nav.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_offcanvas.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\_popover.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_popover.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\_progress.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\_reboot.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\_root.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_root.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\_spinners.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_spinners.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\_tables.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\_toasts.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_toasts.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_tooltip.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\_transitions.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_transitions.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\_type.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_type.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-text.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_validation.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_position.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_position.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_ratio.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_ratio.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_container.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_container.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_image.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_api.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_api.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\service.html",
+      "PackagePath": "staticwebassets\\service.html"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\team.html",
+      "PackagePath": "staticwebassets\\team.html"
+    },
+    {
+      "Id": "C:\\Users\\pc\\Source\\Repos\\Web\\KarYemek\\wwwroot\\testimonial.html",
+      "PackagePath": "staticwebassets\\testimonial.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.KarYemek.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.KarYemek.props",
+      "PackagePath": "build\\KarYemek.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.KarYemek.props",
+      "PackagePath": "buildMultiTargeting\\KarYemek.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.KarYemek.props",
+      "PackagePath": "buildTransitive\\KarYemek.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

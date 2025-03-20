@@ -1,0 +1,44 @@
+﻿@using BLL.AllDTOS.UserDTOS
+@model LoginDTO
+
+@{
+    ViewData["Title"] = "Giriş Yap";
+}
+
+<div class="d-flex flex-column justify-content-center align-items-center vh-100">
+    <!-- Kar Yemek Başlığı -->
+    <h1 class="mb-4 fw-bold">
+        <span class="text-primary">Kar</span> <span class="text-dark">Yemek</span>
+    </h1>
+
+    <div class="card shadow-lg p-4 rounded-3" style="width: 400px;">
+        <div class="card-body">
+            <h2 class="text-center mb-4">Giriş Yap</h2>
+
+            <form method="post" action="/Account/Login">
+              
+                <div class="mb-3">
+                    <label for="Email" class="form-label">Kullanıcı Adı</label>
+                    <input type="text" id="Email" name="Email" class="form-control" required />
+                </div>
+
+                
+                <div class="mb-3">
+                    <label for="Password" class="form-label">Şifre</label>
+                    <input type="password" id="Password" name="Password" class="form-control" required />
+                </div>
+
+              
+                <div class="d-grid">
+                    <button type="submit" class="btn btn-primary">Giriş Yap</button>
+                </div>
+            </form>
+
+           
+            @if (ViewBag.Message != null)
+            {
+                <p class="text-danger text-center mt-3">@ViewBag.Message</p>
+            }
+        </div>
+    </div>
+</div>

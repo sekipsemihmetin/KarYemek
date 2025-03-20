@@ -1,0 +1,72 @@
+﻿@model IEnumerable<KarYemek.Models.DailyMenuModels.GetDailyMenuViewModel>
+
+<div class="container mt-5">
+    <!-- Week Navigation Buttons -->
+    <div class="d-flex justify-content-center align-items-center gap-3 mb-3">
+        <a href="@Url.Action("Foods", new { startOfWeek = ViewData["StartOfWeekPrev"], endOfWeek = ViewData["EndOfWeekPrev"] })"
+           class="btn btn-secondary">⏪ Önceki Hafta</a>
+
+        <h1 class="m-0">📅 Günlük Yemek Listesi</h1>
+
+        <a href="@Url.Action("Foods", new { startOfWeek = ViewData["StartOfWeekNext"], endOfWeek = ViewData["EndOfWeekNext"] })"
+           class="btn btn-secondary">Sonraki Hafta ⏩</a>
+    </div>
+    <hr />
+    <!-- Displaying Weekly and All Daily Menus -->
+    <div class="container">
+        <div class="row justify-content-center">
+            @foreach (var item in Model.OrderBy(x => x.Date))
+            {
+                var collapseId = "collapse_" + item.Date.ToString("yyyyMMdd"); // Benzersiz ID oluştur
+                <div class="col-lg-6 col-md-8 col-sm-12 mb-4">
+                    <div class="card shadow-sm border-0 h-100">
+                        <!-- Başlık (Tıklayınca açılır/kapanır) -->
+                        <div class="card-header bg-primary text-white text-center">
+                            <h5 class="mb-0">
+                                <a class="text-white text-decoration-none d-block" data-bs-toggle="collapse" href="#@collapseId" role="button">
+                                    @item.Date.ToString("dd MMMM yyyy, dddd", new System.Globalization.CultureInfo("tr-TR")) 🔽
+                                </a>
+                            </h5>
+                        </div>
+
+                        <!-- Açılır/Kapanır İçerik -->
+                        <div id="@collapseId" class="collapse">
+                            <div class="card-body d-flex flex-column">
+                                <p class="text-muted text-center">@item.Note</p>
+                                <hr />
+
+                                <div class="row">
+                                    @foreach (var food in item.DailyMenuFoods)
+                                    {
+                                        <div class="col-md-6 col-sm-12 mb-3">
+                                            <div class="card border-0 shadow-sm h-100">
+                                                <img src="@food.Food.ImageURL" class="card-img-top img-fluid"
+                                                     alt="Resim bulunamadı"
+                                                     style="height: 120px; object-fit: cover;" />
+                                                <div class="card-body text-center">
+                                                    <h6 class="card-title fw-bold">@food.Food.Name</h6>
+                                                    <p class="card-text overflow-auto" style="max-height: 100px;">@food.Food.Description</p>
+                                                    <span class="badge bg-secondary px-3 py-2">
+                                                        @food.Food.Calorie cal
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    }
+                                </div>
+
+                                <div class="text-center mt-auto">
+                                    <span class="badge bg-danger fs-5 px-4 py-2 shadow-sm">
+                                        🔥 @item.DailyMenuFoods.Sum(f => f.Food.Calorie) Toplam Kalori
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+
+
+</div>

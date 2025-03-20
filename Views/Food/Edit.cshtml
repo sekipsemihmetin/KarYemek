@@ -1,0 +1,123 @@
+﻿@using KarYemek.Models.CategoryViewModels
+@using KarYemek.Models.FoodViewModels
+@model UpdateFoodViewModel
+
+@{
+    ViewData["Title"] = "Düzenle";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container my-5">
+    <div class="row justify-content-center">
+        <div class="col-md-10 col-lg-8">
+            <div class="card shadow-lg border-0 rounded-3">
+                <div class="card-header bg-primary text-white py-4">
+                    <h3 class="mb-0 text-center">Yiyecek Düzenle</h3>
+                </div>
+
+                <div class="card-body p-4">
+                    <form asp-action="Edit" enctype="multipart/form-data" class="needs-validation" novalidate>
+                        <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+
+                        <!-- Mevcut Fotoğraf Section -->
+                        <div class="form-group mb-4">
+                            <label class="form-label fw-bold">Mevcut Fotoğraf</label>
+                            <div class="image-upload-container position-relative">
+                                <input asp-for="Photo" type="file" class="d-none" id="foodPhoto" onchange="previewImage(event)" />
+                                <label for="foodPhoto" class="custom-file-upload">
+                                    <i class="fas fa-cloud-upload-alt me-2"></i>Fotoğrafı Değiştir
+                                </label>
+                                <div id="imagePreview" class="image-preview mt-3">
+                                    <img id="preview" src="@Model.ImageURL" alt="Yiyecek Resmi" class="img-fluid rounded-3 shadow-sm @(string.IsNullOrEmpty(Model.ImageURL) ? "d-none" : "")" />
+                                    <span id="noPreview" class="text-muted @(string.IsNullOrEmpty(Model.ImageURL) ? "" : "d-none")">Hiçbir resim seçilmedi</span>
+                                </div>
+                            </div>
+                            <span asp-validation-for="Photo" class="text-danger small"></span>
+                        </div>
+
+                        <!-- Yiyecek Adı -->
+                        <div class="form-group mb-4">
+                            <label asp-for="Name" class="form-label fw-bold">Yiyecek Adı</label>
+                            <input asp-for="Name" class="form-control form-control-lg" placeholder="Yiyecek adını girin" required />
+                            <span asp-validation-for="Name" class="text-danger small"></span>
+                        </div>
+
+                        <!-- Açıklama -->
+                        <div class="form-group mb-4">
+                            <label asp-for="Description" class="form-label fw-bold">Açıklama</label>
+                            <textarea asp-for="Description" class="form-control" rows="4" placeholder="Detaylı açıklama girin"></textarea>
+                            <span asp-validation-for="Description" class="text-danger small"></span>
+                        </div>
+
+                        <!-- Kategoriler -->
+                        <div class="form-group mb-4">
+                            <label class="form-label fw-bold">Kategoriler</label>
+                            <div class="d-flex flex-wrap gap-2">
+                                @if (ViewBag.Categories != null && Model.FoodCategories != null)
+                                {
+                                    @foreach (var category in ViewBag.Categories as List<CategoryViewModel>)
+                                    {
+                                        var isSelected = Model.FoodCategories.Any(fc => fc.Category.Id == category.Id);
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" name="FoodCategories" value="@category.Id" id="category-@category.Id" @(isSelected ? "checked" : "") />
+                                            <label class="form-check-label" for="category-@category.Id">
+                                                @category.Name
+                                            </label>
+                                        </div>
+                                    }
+                                }
+                                else
+                                {
+                                    <div class="alert alert-warning">Kategoriler yüklenemedi!</div>
+                                }
+                            </div>
+                        </div>
+
+                        <!-- Kalori -->
+                        <div class="form-group mb-4">
+                            <label asp-for="Calorie" class="form-label fw-bold">Kalori</label>
+                            <input asp-for="Calorie" class="form-control form-control-lg" placeholder="Kalori miktarını girin" type="number" />
+                            <span asp-validation-for="Calorie" class="text-danger small"></span>
+                        </div>
+
+                        <!-- Kaydet Butonu -->
+                        <button type="submit" class="btn btn-success btn-lg px-5">
+                            <i class="fas fa-save me-2"></i>Değişiklikleri Kaydet
+                        </button>
+                        <a asp-action="Index" class="btn btn-outline-secondary btn-lg px-5">
+                            <i class="fas fa-arrow-left me-2"></i>İptal
+                        </a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function previewImage(event) {
+        var input = event.target;
+        var preview = document.getElementById("preview");
+        var noPreview = document.getElementById("noPreview");
+
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+
+            reader.onload = function (e) {
+                preview.src = e.target.result;
+                preview.classList.remove("d-none");
+                noPreview.classList.add("d-none");
+            };
+
+            reader.readAsDataURL(input.files[0]);
+        } else {
+            preview.src = "";
+            preview.classList.add("d-none");
+            noPreview.classList.remove("d-none");
+        }
+    }
+</script>
+
+<!-- Bootstrap JS & jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>

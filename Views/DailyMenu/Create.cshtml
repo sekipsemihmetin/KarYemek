@@ -1,0 +1,82 @@
+﻿@using KarYemek.Models.CategoryViewModels
+@using KarYemek.Models.DailyMenuModels
+@using KarYemek.Models.FoodCategoryViewModels
+@using KarYemek.Models.FoodViewModels
+@model CreateDailyMenuViewModel
+
+@{
+    ViewData["Title"] = "Oluştur";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@{
+    var foods = (List<GetFoodViewModel>)ViewBag.Food;
+    var categories = (List<GetCategoryViewModel>)ViewBag.Categories;
+}
+
+<div class="container mt-5">
+    <h1 class="text-center">Günlük Menü Oluştur</h1>
+    <hr />
+
+    <form asp-action="Create" class="shadow-lg p-4 bg-white rounded">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+        <!-- Sağ Üst Kısım - Tarih ve Not -->
+        <div class="row mb-4">
+            <div class="col-md-6">
+                <div class="card shadow-sm border-0">
+                    <div class="card-body">
+                        <label for="Date" class="form-label fw-bold">
+                            <i class="bi bi-calendar3 text-primary"></i> Tarih Seç
+                        </label>
+                        <input type="date" id="Date" name="Date" class="form-control border-primary p-2" />
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card shadow-sm border-0">
+                    <div class="card-body">
+                        <label for="Note" class="form-label fw-bold">
+                            <i class="bi bi-journal-text text-primary"></i> Bir Not Ekleyin
+                        </label>
+                        <input type="text" id="Note" name="Note" class="form-control border-primary p-2" placeholder="Bir not girin..." />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h3 class="text-center text-primary mt-4">Yiyecekleri Seçin</h3>
+
+        <!-- Kategoriler ve Yemekler -->
+        <div class="row">
+            @foreach (var category in categories)
+            {
+                <div class="col-md-6 mb-4">
+                    <div class="card shadow-sm border-0">
+                        <div class="card-header bg-primary text-white">
+                            <h5 class="mb-0">@category.Name</h5>
+                        </div>
+                        <div class="card-body">
+                            @foreach (var food in foods.Where(f => f.FoodCategories.Any(c => c.CategoryId == category.Id)))
+                            {
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" name="SelectedFoodIds" value="@food.Id" id="food-@food.Id" />
+                                    <label class="form-check-label fw-medium" for="food-@food.Id">
+                                        @food.Name <span class="badge bg-secondary">@food.Calorie kalori</span>
+                                    </label>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+
+        <div class="text-center mt-4">
+            <button type="submit" class="btn btn-lg btn-success px-5 shadow">Oluştur</button>
+        </div>
+    </form>
+
+    <div class="text-center mt-3">
+        <a asp-action="Index" class="btn btn-link text-muted">Listeye Dön</a>
+    </div>
+</div>

@@ -1,0 +1,74 @@
+﻿@using System.Globalization
+@model IEnumerable<KarYemek.Models.DailyMenuModels.GetDailyMenuViewModel>
+
+@{
+    ViewData["Title"] = "Günlük Menüler";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    decimal toplamKalori = 0;
+}
+
+<div class="container mt-5">
+    <h1 class="text-center">🍽 Günlük Menüler</h1>
+    <hr />
+
+    <div class="text-end mb-3">
+        <a asp-action="Create" class="btn btn-primary shadow">+ Yeni Oluştur</a>
+    </div>
+
+    <div class="row">
+        @foreach (var item in Model.OrderByDescending(x => x.Date))
+        {
+               <!-- Tarihe göre sırala (yeniden eskiye) -->
+
+            <div class="col-md-6 mb-4">
+                <div class="card shadow-sm border-0">
+                    <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
+                        <h5 class="mb-0">@item.Date.ToString("dd MMMM yyyy, dddd", new CultureInfo("tr-TR"))</h5>
+                        <button class="btn btn-light btn-sm" data-bs-toggle="collapse" data-bs-target="#foods-@item.Id">
+                            🍲 Yiyecekleri Görüntüle
+                        </button>
+                    </div>
+                    <div class="card-body">
+                        <p class="text-muted">@item.Note</p>
+                        <div id="foods-@item.Id" class="collapse">
+                            <h6 class="fw-bold text-center">📝 Günlük Yemek Listesi</h6>
+                            <hr />
+
+                            <div class="row">
+                                @foreach (var food in item.DailyMenuFoods)
+                                {
+
+                                    <div class="col-md-6 mb-3">
+                                        <div class="card border-0 shadow-sm">
+
+                                            <img src="@food.Food.ImageURL" class="card-img-top img-fluid" alt="Resim bulunamadı"
+                                                 style="height: 100px; object-fit: cover;" />
+                                            <div class="card-body text-center">
+                                                <h6 class="card-title">@food.Food.Name</h6>
+                                                <p class="card-text">@food.Food.Description</p>
+                                                <span class="badge bg-secondary">@food.Food.Calorie kalori</span>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    toplamKalori += food.Food.Calorie;
+                                }
+                                <span class="badge bg-danger">@toplamKalori Toplam Kalori</span>
+                                @{
+                                    toplamKalori = 0;
+                                }
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="card-footer text-end">
+                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning btn-sm">Düzenle</a>
+                        <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info btn-sm">Detaylar</a>
+                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Sil</a>
+                    </div>
+                </div>
+            </div>
+        }
+
+    </div>
+</div>

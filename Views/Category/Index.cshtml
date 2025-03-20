@@ -1,0 +1,61 @@
+﻿@using BLL.AllDTOS.CategoryDTOS
+@using KarYemek.Models.CategoryViewModels
+
+@model IEnumerable<CategoryViewModel>
+
+<h1 class="text-center mb-4">Kategoriler</h1>
+
+<!-- New Category Button -->
+<div class="text-center my-4">
+    <a class="btn btn-primary btn-lg" asp-action="CreateCategory">
+        <i class="fas fa-plus d-block"></i>Yeni Kategori Oluştur
+    </a>
+</div>
+
+<!-- Category Cards Container -->
+<div class="container">
+    <div class="row justify-content-center">
+        @foreach (var item in Model)
+        {
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4 d-flex align-items-stretch">
+                <div class="card shadow-lg rounded-3 overflow-hidden d-flex flex-column w-100 h-100">
+                    <!-- Image Section (Placeholder if no image) -->
+                    <div style="height: 250px; overflow: hidden; display: flex; align-items: center; justify-content: center; background-color: #f8f9fa;">
+                        @if (!string.IsNullOrEmpty(item.ImageURL))
+                        {
+                            <img src="@item.ImageURL" class="card-img-top w-100 h-100" alt="Kategori Fotoğrafı" style="object-fit: cover;">
+                        }
+                        else
+                        {
+                            <span class="text-muted">Kategori Fotoğrafı</span>
+                        }
+                    </div>
+
+                    <div class="card-body d-flex flex-column">
+                        <!-- Category Name -->
+                        <h5 class="card-title text-center">@item.Name</h5>
+
+                        <!-- Description -->
+                        <p class="card-text text-center text-muted">@item.Description</p>
+
+                        <!-- Action Buttons -->
+                        <div class="mt-auto d-flex justify-content-between">
+                            <a asp-action="EditCategory" asp-route-id="@item.Id" class="btn btn-warning btn-sm d-flex flex-column align-items-center w-100 text-center">
+                                <i class="fas fa-edit"></i>
+                                <span>Düzenle</span>
+                            </a>
+                            <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info btn-sm d-flex flex-column align-items-center w-100 text-center">
+                                <i class="fas fa-eye"></i>
+                                <span>Detaylar</span>
+                            </a>
+                            <a asp-action="DeleteCategory" asp-route-id="@item.Id" class="btn btn-danger btn-sm d-flex flex-column align-items-center w-100 text-center">
+                                <i class="fas fa-trash-alt"></i>
+                                <span>Sil</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

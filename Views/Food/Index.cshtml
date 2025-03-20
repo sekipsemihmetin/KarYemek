@@ -1,0 +1,76 @@
+﻿@using KarYemek.Models.FoodCategoryViewModels
+@using KarYemek.Models.FoodViewModels
+@model List<GetFoodViewModel>
+
+<h1 class="text-center my-4">Yiyecek Listesi</h1>
+
+<!-- New Food Button -->
+<div class="text-center my-4">
+    <a class="btn btn-primary btn-lg" asp-action="Create">
+        <i class="fas fa-plus d-block"></i>Yeni Yiyecek Oluştur
+    </a>
+</div>
+
+<!-- Food Cards Container -->
+<div class="container">
+    <div class="row justify-content-center">
+        @foreach (var item in Model)
+        {
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4 d-flex align-items-stretch">
+                <div class="card shadow-lg rounded-3 overflow-hidden d-flex flex-column w-100 h-100">
+                    <!-- Image Section (Placeholder if no image) -->
+                    <div style="height: 250px; overflow: hidden; display: flex; align-items: center; justify-content: center; background-color: #f8f9fa;">
+                        @if (!string.IsNullOrEmpty(item.ImageURL))
+                        {
+                            <img src="@item.ImageURL" class="card-img-top w-100 h-100" alt="Yiyecek Fotoğrafı" style="object-fit: cover;">
+                        }
+                        else
+                        {
+                            <span class="text-muted">Yiyecek Fotoğrafı</span>
+                        }
+                    </div>
+
+                    <div class="card-body d-flex flex-column">
+                        <!-- Food Name -->
+                        <h5 class="card-title text-center">@item.Name</h5>
+
+                        <!-- Description -->
+                        <p class="card-text text-center text-muted">@item.Description</p>
+
+                        <!-- Calorie Info -->
+                        <p class="card-text text-center"><strong>Kalori:</strong> @item.Calorie kcal</p>
+
+                        <!-- Categories -->
+                        <p class="card-text text-center">
+                            <strong>Kategoriler:</strong>
+                            @if (item.FoodCategories != null && item.FoodCategories.Any())
+                            {
+                                <span>@string.Join(", ", item.FoodCategories.Select(c => c.Category.Name))</span>
+                            }
+                            else
+                            {
+                                <span class="text-muted">Kategori bulunmuyor</span>
+                            }
+                        </p>
+
+                        <!-- Action Buttons -->
+                        <div class="mt-auto d-flex justify-content-center gap-2">
+                            <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning btn-sm d-flex flex-column align-items-center w-100 text-center">
+                                <i class="fas fa-edit"></i>
+                                <span>Düzenle</span>
+                            </a>
+                            <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info btn-sm d-flex flex-column align-items-center w-100 text-center">
+                                <i class="fas fa-eye"></i>
+                                <span>Detaylar</span>
+                            </a>
+                            <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm d-flex flex-column align-items-center w-100 text-center">
+                                <i class="fas fa-trash-alt"></i>
+                                <span>Sil</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

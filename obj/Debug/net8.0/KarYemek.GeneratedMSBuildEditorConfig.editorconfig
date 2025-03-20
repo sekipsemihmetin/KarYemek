@@ -1,0 +1,179 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = KarYemek
+build_property.RootNamespace = KarYemek
+build_property.ProjectDir = C:\Users\pc\Source\Repos\Web\KarYemek\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\pc\Source\Repos\Web\KarYemek
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/pc/Source/Repos/Web/KarYemek/Views/AboutUs/GM.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRVc1xHTS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Source/Repos/Web/KarYemek/Views/AboutUs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRVc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Source/Repos/Web/KarYemek/Views/AboutUs/Media.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRVc1xNZWRpYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Source/Repos/Web/KarYemek/Views/AboutUs/Muniment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRVc1xNdW5pbWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Source/Repos/Web/KarYemek/Views/AboutUs/Productarea.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRVc1xQcm9kdWN0YXJlYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Source/Repos/Web/KarYemek/Views/AboutUs/Storage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRVc1xTdG9yYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Source/Repos/Web/KarYemek/Views/AboutUs/Supplier.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRVc1xTdXBwbGllci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Source/Repos/Web/KarYemek/Views/AboutUs/Team.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRVc1xUZWFtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Source/Repos/Web/KarYemek/Views/AboutUs/Vehicle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRVc1xWZWhpY2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Source/Repos/Web/KarYemek/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Source/Repos/Web/KarYemek/Views/Category/CreateCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ3JlYXRlQ2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Source/Repos/Web/KarYemek/Views/Category/DeleteCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRGVsZXRlQ2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Source/Repos/Web/KarYemek/Views/Category/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Source/Repos/Web/KarYemek/Views/Category/EditCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRWRpdENhdGVnb3J5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Source/Repos/Web/KarYemek/Views/Category/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Source/Repos/Web/KarYemek/Views/DailyMenu/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFpbHlNZW51XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Source/Repos/Web/KarYemek/Views/DailyMenu/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFpbHlNZW51XERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Source/Repos/Web/KarYemek/Views/DailyMenu/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFpbHlNZW51XERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Source/Repos/Web/KarYemek/Views/DailyMenu/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFpbHlNZW51XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Source/Repos/Web/KarYemek/Views/DailyMenu/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFpbHlNZW51XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Source/Repos/Web/KarYemek/Views/Food/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vZFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Source/Repos/Web/KarYemek/Views/Food/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vZFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Source/Repos/Web/KarYemek/Views/Food/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vZFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Source/Repos/Web/KarYemek/Views/Food/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vZFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Source/Repos/Web/KarYemek/Views/Food/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vZFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Source/Repos/Web/KarYemek/Views/Home/AboutUs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dFVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Source/Repos/Web/KarYemek/Views/Home/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Source/Repos/Web/KarYemek/Views/Home/Events.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFdmVudHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Source/Repos/Web/KarYemek/Views/Home/Foods.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGb29kcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Source/Repos/Web/KarYemek/Views/Home/GetOffer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxHZXRPZmZlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Source/Repos/Web/KarYemek/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Source/Repos/Web/KarYemek/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Source/Repos/Web/KarYemek/Views/Home/Services.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZXJ2aWNlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Source/Repos/Web/KarYemek/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Source/Repos/Web/KarYemek/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Source/Repos/Web/KarYemek/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Source/Repos/Web/KarYemek/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/pc/Source/Repos/Web/KarYemek/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-kkhiz7esev

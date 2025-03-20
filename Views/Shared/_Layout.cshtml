@@ -1,0 +1,202 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="utf-8">
+    <title>KarYemek ~0312 354 53 88~</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playball&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="~/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="~/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="~/lib/owlcarousel/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="~/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="~/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Spinner Start -->
+    <div id="spinner" class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50  d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" role="status"></div>
+    </div>
+    <!-- Spinner End -->
+    <!-- Header Start -->
+    <header class="container-fluid nav-bar sticky-top">
+        <div class="container">
+            <nav class="navbar navbar-light navbar-expand-lg py-4">
+                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">
+                    <h1 class="text-primary fw-bold mb-0">Kar<span class="text-dark">Yemek</span> </h1>
+                </a>
+                <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars text-primary"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav mx-auto">
+                        <a class="nav-item nav-link active" asp-area="" asp-controller="Home" asp-action="Index">Anasayfa</a>
+                        <div class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" asp-area="" asp-controller="Home" asp-action="AboutUs">Kurumsal</a>
+                            <div class="dropdown-menu bg-light">
+                                <a href="@Url.Action("GM", "AboutUs")" class="dropdown-item">Genel Müdür</a>
+                                <a href="@Url.Action("Team", "AboutUs")" class="dropdown-item">İdari Kadro</a>
+                                <a href="@Url.Action("Media", "AboutUs")" class="dropdown-item">Medya</a>
+                                <a href="@Url.Action("Supplier", "AboutUs")" class="dropdown-item">Tedarikçilerimiz</a>
+                                <a href="@Url.Action("Muniment", "AboutUs")" class="dropdown-item">Belgelerimiz</a>
+                                <a href="@Url.Action("Productarea", "AboutUs")" class="dropdown-item">Üretimhanemiz</a>
+                                <a href="@Url.Action("Storage", "AboutUs")" class="dropdown-item">Depomuz</a>
+                                <a href="@Url.Action("Vehicle", "AboutUs")" class="dropdown-item">Araç Filomuz</a>
+                            </div>
+                        </div>
+                        <div class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" asp-area="" asp-controller="Home" asp-action="Services">Hizmetlerimiz</a>
+                            <div class="dropdown-menu bg-light">
+                                <a href="@Url.Action("Institutional", "Services")" class="dropdown-item">Kurumsal Catering</a>
+                                <a href="@Url.Action("Wedding", "Services")" class="dropdown-item">Düğün Catering</a>
+                                <a href="@Url.Action("Invitation", "Services")" class="dropdown-item">Özel Davetler</a>
+                                <a href="@Url.Action("Valued", "Services")" class="dropdown-item">Değerli Anlar</a>
+                                <a href="@Url.Action("Compainy", "Services")" class="dropdown-item">İşletmeniz</a>
+                                <a href="@Url.Action("Other", "Services")" class="dropdown-item">Diğerleri</a>
+                            </div>
+                        </div>
+                        <a class="nav-item nav-link" asp-area="" asp-controller="Home" asp-action="Events">Etkinlikler</a>
+                        <a class="nav-item nav-link" asp-area="" asp-controller="Home" asp-action="Foods">Yemek Listesi</a>
+                        <a class="nav-item nav-link" asp-area="" asp-controller="Home" asp-action="Contact">İletişim</a>
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            @if (User.IsInRole("Admin"))
+                            {
+                                        <div class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle text-danger fw-bold" href="#" id="adminDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Admin İşlemleri
+                                            </a>
+                                            <ul class="dropdown-menu" aria-labelledby="adminDropdown">
+                                                <li><a class="dropdown-item" asp-area="" asp-controller="Food" asp-action="Index">Yemek İşlemleri</a></li>
+                                                <li><a class="dropdown-item" asp-area="" asp-controller="DailyMenu" asp-action="Index">Menü İşlemleri</a></li>
+                                                <li><a class="dropdown-item" asp-area="" asp-controller="Category" asp-action="Index">Kategori İşlemleri</a></li>
+                                                <li><a class="dropdown-item text-danger" asp-area="" asp-controller="Account" asp-action="Logout">Çıkış Yap</a></li>
+                                            </ul>
+                                        </div>
+                            }
+                        }
+                    </div>
+                    <a class="btn btn-primary py-2 px-4 d-none d-xl-inline-block rounded-pill" asp-area="" asp-controller="Home" asp-action="GetOffer">Teklif Al</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- Header End -->
+    <!-- Modal Search Start -->
+    <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content rounded-0">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Sayfada ara</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex align-items-center">
+                    <div class="input-group w-75 mx-auto d-flex">
+                        <input type="search" class="form-control bg-transparent p-3" placeholder="anahtar kelimeler" aria-describedby="search-icon-1">
+                        <span id="search-icon-1" class="input-group-text p-3"><i class="fa fa-search"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Search End -->
+    @RenderBody()
+    <!-- Footer Start -->
+    <div class="container-fluid footer py-6 my-6 mb-0 bg-light wow bounceInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-item">
+                        <h1 class="text-primary">Kar<span class="text-dark">Yemek</span></h1>
+                        <p class="lh-lg mb-4">Firmamız insan sağlığına, gıda güvenliğine ve kaliteye azami ölçüde özen göstererek mevzuata, standartlara ve müşteri beklentilerine uygun ürün-hizmet sunmayı kendine amaç edinmiş bir kuruluştur.</p>
+                        <div class="footer-icon d-flex">
+                            <a class="btn btn-primary btn-sm-square me-2 rounded-circle" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-primary btn-sm-square me-2 rounded-circle" href=""><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="btn btn-primary btn-sm-square me-2 rounded-circle"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="btn btn-primary btn-sm-square rounded-circle"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-item">
+                        <h4 class="mb-4">Tanıtım Videosu</h4>
+                        <div class="d-flex flex-column align-items-start">
+                            <iframe width="300" height="280" src="https://www.youtube.com/embed/iIi17bXWDBM?si=BBqF6sRmqkFBf24_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-item">
+                        <h4 class="mb-4">İletişim</h4>
+                        <div class="d-flex flex-column align-items-start">
+                            <p><i class="fa fa-map-marker-alt text-primary me-2"></i> Ostim Mahallesi Örnek Sanayi Sitesi 1265. Cad. No: 14 Ostim / ANKARA</p>
+                            <p><i class="fa fa-phone-alt text-primary me-2"></i> 0312 354 53 88 - 0312 385 25 33</p>
+                            <p><i class="fa fa-phone-alt text-primary me-2"></i> 0530 292 72 43</p>
+                            <p><i class="fas fa-envelope text-primary me-2"></i> info@karyemek.com.tr</p>
+                            <p><i class="fa fa-clock text-primary me-2"></i> Pazartesi-Cumartesi 08:30-18:30 </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-item">
+                        <h4 class="mb-4">Harita</h4>
+                        <div class="row g-2">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3057.4474203565683!2d32.7567539!3d39.9761056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d349996343ef17%3A0xa8ba8e3e992ec39f!2sKar%20Yemek!5e0!3m2!1str!2str!4v1741816871983!5m2!1str!2str" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright bg-dark py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    <span class="text-light"><a href="#"><i class="fas fa-copyright text-light me-2"></i>Kar Yemek</a>, Tüm hakları saklıdır.</span>
+                </div>
+                <div class="col-md-6 my-auto text-center text-md-end text-white">
+                    Designed By: <a class="border-bottom" href="https://www.instagram.com/rint.com.tr?igsh=bWdoYXdpbHFpeXM0">{R-Int}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-md-square btn-primary rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/lib/wow/wow.min.js"></script>
+    <script src="~/lib/easing/easing.min.js"></script>
+    <script src="~/lib/waypoints/waypoints.min.js"></script>
+    <script src="~/lib/counterup/counterup.min.js"></script>
+    <script src="~/lib/lightbox/js/lightbox.min.js"></script>
+    <script src="~/lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="~/js/main.js"></script>
+
+</body>
+</html>

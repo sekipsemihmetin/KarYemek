@@ -1,0 +1,55 @@
+﻿
+@{
+    ViewData["Title"] = "Contact";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container d-flex justify-content-center align-items-center min-vh-100">
+    <div class="col-lg-6 col-md-6 col-sm-8 col-10">
+        <!-- %40 genişlik için -->
+        <form class="needs-validation p-4 border rounded shadow bg-white" novalidate>
+            <div class="mb-3">
+                <label for="name" class="form-label">Ad Soyad</label>
+                <input type="text" class="form-control" id="name" placeholder="Adınızı ve Soyadınızı girin" required>
+                <div class="invalid-feedback">Lütfen adınızı ve soyadınızı girin.</div>
+            </div>
+
+            <div class="mb-3">
+                <label for="email" class="form-label">E-Posta</label>
+                <input type="email" class="form-control" id="email" placeholder="ornek@eposta.com" required>
+                <div class="invalid-feedback">Lütfen geçerli bir e-posta adresi girin.</div>
+            </div>
+
+            <div class="mb-3">
+                <label for="phone" class="form-label">Telefon</label>
+                <input type="tel" class="form-control" id="phone" placeholder="+90 5XX XXX XX XX" required>
+                <div class="invalid-feedback">Lütfen geçerli bir telefon numarası girin.</div>
+            </div>
+
+            <div class="mb-3">
+                <label for="message" class="form-label">Mesajınız</label>
+                <textarea class="form-control" id="message" rows="4" placeholder="Mesajınızı buraya yazın" required></textarea>
+                <div class="invalid-feedback">Lütfen mesajınızı girin.</div>
+            </div>
+
+            <button type="submit" class="btn btn-primary w-100">Gönder</button>
+        </form>
+    </div>
+</div>
+
+
+<script>
+    (function () {
+        'use strict';
+        var forms = document.querySelectorAll('.needs-validation');
+        Array.prototype.slice.call(forms).forEach(function (form) {
+            form.addEventListener('submit', function (event) {
+                if (!form.checkValidity()) {
+                    event.preventDefault();
+                    event.stopPropagation();
+                }
+                form.classList.add('was-validated');
+            }, false);
+        });
+    })();
+</script>

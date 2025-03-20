@@ -1,0 +1,81 @@
+﻿@using KarYemek.Models.FoodViewModels
+@model GetFoodViewModel
+
+@{
+    ViewData["Title"] = "Detaylar";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container my-5">
+    <div class="row justify-content-center">
+        <!-- Yiyecek Detayları İçin Kart Tasarımı -->
+        <div class="col-md-8">
+            <div class="card shadow-lg border-light rounded">
+                <!-- Başlık -->
+                <div class="card-header bg-info text-white text-center">
+                    <h3>Yiyecek Detayları</h3>
+                </div>
+                <div class="card-body">
+                    <!-- Fotoğraf Alanı -->
+                    <div class="text-center mb-4">
+                        @if (!string.IsNullOrEmpty(Model.ImageURL))
+                        {
+                            <img src="@Model.ImageURL" alt="Yiyecek Fotoğrafı" class="img-fluid rounded-circle shadow-sm" style="max-width: 300px; max-height: 300px;" />
+                        }
+                        else
+                        {
+                            <span class="text-muted">Fotoğraf mevcut değil</span>
+                        }
+                    </div>
+
+                    <!-- Yiyecek Adı -->
+                    <div class="mb-3">
+                        <h4><strong>@Html.DisplayFor(model => model.Name)</strong></h4>
+                    </div>
+
+                    <!-- Yiyecek Açıklaması -->
+                    <div class="mb-3">
+                        <h5><strong>Açıklama:</strong></h5>
+                        <p>@Html.DisplayFor(model => model.Description)</p>
+                    </div>
+
+                    <!-- Kategoriler -->
+                    <div class="form-group mb-4">
+                        <h5><strong>Kategoriler:</strong></h5>
+                        <div class="d-flex flex-wrap gap-2">
+                            @if (Model.FoodCategories != null && Model.FoodCategories.Any())
+                            {
+                                @foreach (var category in Model.FoodCategories)
+                                {
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" checked disabled />
+                                        <label class="form-check-label text-dark">
+                                            @category.Category.Name
+                                        </label>
+                                    </div>
+                                }
+                            }
+                            else
+                            {
+                                <div class="alert alert-warning">Bu yiyeceğe ait kategori bulunamadı!</div>
+                            }
+                        </div>
+                    </div>
+
+                    <!-- Kalori Bilgisi -->
+                    <div class="mb-3">
+                        <h5><strong>Kalori:</strong></h5>
+                        <p>@Html.DisplayFor(model => model.Calorie) kcal</p>
+                    </div>
+                </div>
+
+                <!-- Footer with Action Buttons -->
+                <div class="card-footer text-center">
+                    <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-warning btn-lg">Düzenle</a>
+                    <a asp-action="Index" class="btn btn-secondary btn-lg">Listeye Dön</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
